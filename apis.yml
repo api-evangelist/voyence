@@ -1,7 +1,28 @@
 aid: voyence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voyence.png
 name: Voyence
-description: Voyence is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Voyence was an enterprise software company that provided network configuration
+  and change management solutions, automating critical change, compliance, and
+  service-activation processes across large IT and network operations
+  environments (the VoyenceControl product line). It was surfaced as a portfolio
+  company of Canaan Partners and added to the API Evangelist network as a stub
+  for enrichment. Enrichment research found that Voyence was acquired by EMC
+  (Dell EMC) on October 30, 2007 and folded into EMC's IT/network management
+  portfolio; it is a long-defunct, exited company with no live website, developer
+  portal, or public API surface. There are no APIs, specifications, or artifacts
+  to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/voyence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +30,30 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: EMC (Dell EMC)
+x-acquired-date: '2007-10-30'
+x-status-source: https://www.canaan.com/companies/voyence
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Configuration Management
+- Change Management
+- Network Management
+- Compliance
+- IT Operations
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
